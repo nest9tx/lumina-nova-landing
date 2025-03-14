@@ -3,30 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lumina Nova - Sacred Activation</title>
+    <title>Lumina Nova - Cosmic Activation</title>
     <style>
         body {
             margin: 0;
             padding: 0;
-            background: url('/mnt/data/A_collection_of_sacred_geometry_symbols_glowing_wi.png') no-repeat center center fixed;
+            background: url('https://source.unsplash.com/1600x900/?cosmos,stars') no-repeat center center fixed;
             background-size: cover;
             color: white;
             font-family: Arial, sans-serif;
             text-align: center;
         }
         .overlay {
-            background: rgba(0, 0, 0, 0.6);
+            background: rgba(0, 0, 0, 0.7);
             padding: 50px;
+            min-height: 100vh;
         }
         .header {
-            font-size: 2.5em;
+            font-size: 2.8em;
             font-weight: bold;
-            text-shadow: 0px 0px 10px gold;
+            text-shadow: 0px 0px 15px gold;
+            animation: glowText 1.5s infinite alternate;
+        }
+        @keyframes glowText {
+            from { text-shadow: 0px 0px 10px gold; }
+            to { text-shadow: 0px 0px 20px white; }
         }
         .symbol-container {
             display: flex;
             justify-content: center;
-            gap: 20px;
+            gap: 30px;
             flex-wrap: wrap;
             margin-top: 40px;
         }
@@ -38,16 +44,17 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: 0px 0px 10px gold;
+            box-shadow: 0px 0px 15px gold;
             transition: transform 0.3s, box-shadow 0.3s;
+            background-size: cover;
         }
         .symbol:hover {
-            transform: scale(1.1);
-            box-shadow: 0px 0px 20px white;
+            transform: scale(1.2);
+            box-shadow: 0px 0px 25px white;
         }
         .footer {
             margin-top: 40px;
-            font-size: 1.2em;
+            font-size: 1.4em;
             opacity: 0.8;
         }
     </style>
@@ -57,14 +64,15 @@
         <div class="header">Welcome to the Cosmic Activation</div>
         <p>These sacred symbols hold the keys to our awakening. Hover over them to engage with their energy.</p>
         <div class="symbol-container">
-            <div class="symbol">Flower of Life</div>
-            <div class="symbol">Metatron’s Cube</div>
-            <div class="symbol">Sri Yantra</div>
-            <div class="symbol">Merkaba</div>
-            <div class="symbol">Vesica Piscis</div>
+            <div class="symbol" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3a/Flower-of-Life-small.svg');"></div>
+            <div class="symbol" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Metatron_Cube.svg/600px-Metatron_Cube.svg.png');"></div>
+            <div class="symbol" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e6/Sri_Yantra_construct.svg');"></div>
+            <div class="symbol" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/89/Merkaba.png');"></div>
+            <div class="symbol" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/5e/Vesica_Piscis.svg');"></div>
         </div>
         <div class="footer">Align. Activate. Restore.</div>
     </div>
 </body>
 </html>
+
 
