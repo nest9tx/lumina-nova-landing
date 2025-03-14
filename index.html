@@ -3,82 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lumina Nova - Sanctuary for Awakening</title>
+    <title>Lumina Nova - Sacred Activation</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background: linear-gradient(120deg, #0f0c29, #302b63, #24243e);
-            color: #fff;
             margin: 0;
             padding: 0;
+            background: url('/mnt/data/A_collection_of_sacred_geometry_symbols_glowing_wi.png') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
         }
-        header {
-            padding: 40px;
-            background: rgba(0, 0, 0, 0.8);
-            font-size: 24px;
+        .overlay {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 50px;
+        }
+        .header {
+            font-size: 2.5em;
             font-weight: bold;
+            text-shadow: 0px 0px 10px gold;
         }
-        section {
-            padding: 50px 20px;
-            max-width: 800px;
-            margin: auto;
-            line-height: 1.8;
+        .symbol-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 40px;
         }
-        h2 {
-            color: #ffcc00;
-            font-size: 28px;
+        .symbol {
+            width: 150px;
+            height: 150px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0px 0px 10px gold;
+            transition: transform 0.3s, box-shadow 0.3s;
         }
-        .button {
-            background-color: #ffcc00;
-            color: #111;
-            padding: 15px 30px;
-            text-decoration: none;
-            font-size: 20px;
-            border-radius: 8px;
-            transition: background 0.3s ease;
-            display: inline-block;
-            margin-top: 20px;
+        .symbol:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 0px 20px white;
         }
-        .button:hover {
-            background-color: #ffd633;
-        }
-        footer {
-            padding: 20px;
-            background: rgba(0, 0, 0, 0.8);
-            font-size: 14px;
+        .footer {
+            margin-top: 40px;
+            font-size: 1.2em;
+            opacity: 0.8;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Lumina Nova</h1>
-        <p>A Sanctuary for Awakening, Alignment & Restoration</p>
-    </header>
-    <section>
-        <h2>Mission Statement</h2>
-        <p>Lumina Nova is a dedicated sanctuary designed to prepare individuals for the coming shifts through conscious alignment, advanced energy work, and cosmic integration.</p>
-    </section>
-    <section>
-        <h2>Why Now?</h2>
-        <p>With planetary transitions accelerating, it is critical to establish secure spaces for deep learning, protection, and evolution.</p>
-    </section>
-    <section>
-        <h2>Support the Mission</h2>
-        <p>As a registered 501(c)(3) nonprofit, your contributions are tax-deductible and directly fund the establishment of this sanctuary.</p>
-        <a href="https://donate.stripe.com/aEU03E1aIcnA0G428b" class="button">Donate Now</a>
-    </section>
-    <section>
-        <h2>Strategic Mission Activation</h2>
-        <p>"Lumina Nova is in rapid mission activation, moving faster than traditional timelines allow. While our full online hub is under construction, our 501(c)(3) status is secured, financial structures are live, and direct funding avenues are open. We invite serious contributors to engage at the foundational level before public access expands."</p>
-    </section>
-    <section>
-        <h2>Contact Us</h2>
-        <p>Email: <a href="mailto:info@luminanova.org">info@luminanova.org</a> | <a href="mailto:beacon@luminanova.org">beacon@luminanova.org</a></p>
-    </section>
-    <footer>
-        <p>&copy; 2025 Lumina Nova. All Rights Reserved.</p>
-    </footer>
+    <div class="overlay">
+        <div class="header">Welcome to the Cosmic Activation</div>
+        <p>These sacred symbols hold the keys to our awakening. Hover over them to engage with their energy.</p>
+        <div class="symbol-container">
+            <div class="symbol">Flower of Life</div>
+            <div class="symbol">Metatron’s Cube</div>
+            <div class="symbol">Sri Yantra</div>
+            <div class="symbol">Merkaba</div>
+            <div class="symbol">Vesica Piscis</div>
+        </div>
+        <div class="footer">Align. Activate. Restore.</div>
+    </div>
 </body>
 </html>
 
