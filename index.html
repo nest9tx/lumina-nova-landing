@@ -3,65 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cosmic Activation</title>
+    <title>Lumina Nova - Cosmic Activation</title>
     <style>
         body {
-            background-color: #222;
+            background-color: #111;
             color: white;
             font-family: Arial, sans-serif;
             text-align: center;
             margin: 0;
             padding: 0;
         }
-        h1 {
+        .header {
             font-size: 2.5em;
-            margin-top: 30px;
-            text-shadow: 0 0 15px #FFD700;
+            font-weight: bold;
+            margin-top: 40px;
+            text-shadow: 0px 0px 20px yellow;
         }
-        p {
+        .sub-header {
             font-size: 1.2em;
-            margin-bottom: 20px;
+            margin-top: 10px;
+            color: #ccc;
         }
-        .symbol-container {
+        .symbols-container {
             display: flex;
             justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 30px;
-            margin-top: 20px;
+            margin-top: 40px;
+            gap: 20px;
         }
         .symbol {
-            width: 180px;
-            height: 180px;
-            background-color: rgba(255, 215, 0, 0.1);
+            width: 120px;
+            height: 120px;
+            background-color: transparent;
             border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
-            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0px 0px 20px yellow;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
         .symbol:hover {
             transform: scale(1.2);
-            box-shadow: 0 0 35px rgba(255, 215, 0, 0.9);
+            box-shadow: 0px 0px 40px gold;
         }
-        .symbol img {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
+        .donation-container {
+            margin-top: 50px;
+        }
+        .donate-btn {
+            background-color: gold;
+            color: black;
+            font-size: 1.2em;
+            padding: 15px 30px;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: bold;
+        }
+        .donate-btn:hover {
+            background-color: #ffd700;
+            box-shadow: 0px 0px 15px gold;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to the Cosmic Activation</h1>
-    <p>These sacred symbols hold the keys to our awakening. Hover over them to engage with their energy.</p>
-    <div class="symbol-container">
-        <div class="symbol"><img src="https://i.postimg.cc/NMxnJv60/Flower-Of-Life.jpg" alt="Flower of Life"></div>
-        <div class="symbol"><img src="https://i.postimg.cc/prG6vQ1b/Metatron-s-Cube.jpg" alt="Metatron's Cube"></div>
-        <div class="symbol"><img src="https://i.postimg.cc/L65WT7nH/Sri-Yantra.jpg" alt="Sri Yantra"></div>
-        <div class="symbol"><img src="https://i.postimg.cc/Xq7zt1Lk/Merkaba.jpg" alt="Merkaba"></div>
-        <div class="symbol"><img src="https://i.postimg.cc/SQD5cqQT/Vesica-Piscis.jpg" alt="Vesica Piscis"></div>
+    <div class="header">Welcome to the Cosmic Activation</div>
+    <div class="sub-header">These sacred symbols hold the keys to our awakening. Hover over them to engage with their energy.</div>
+
+    <div class="symbols-container">
+        <img class="symbol" src="https://i.postimg.cc/NMxnJv60/Flower-Of-Life.jpg" alt="Flower of Life">
+        <img class="symbol" src="https://i.postimg.cc/prG6vQ1b/Metatron-s-Cube.jpg" alt="Metatron's Cube">
+        <img class="symbol" src="https://i.postimg.cc/L65WT7nH/Sri-Yantra.jpg" alt="Sri Yantra">
+        <img class="symbol" src="https://i.postimg.cc/Xq7zt1Lk/Merkaba.jpg" alt="Merkaba">
+        <img class="symbol" src="https://i.postimg.cc/SQD5cqQT/Vesica-Piscis.jpg" alt="Vesica Piscis">
     </div>
-    <p>Align. Activate. Restore.</p>
+    
+    <div class="donation-container">
+        <h2>Support the Mission</h2>
+        <p>Your contributions are <strong>tax-deductible</strong> and directly fund the establishment of this sanctuary.<br>
+        For large contributions, bank transfers are available upon request. Anonymous crypto donations are also accepted.</p>
+        <a href="YOUR_STRIPE_DONATION_LINK" class="donate-btn">Donate Now</a>
+    </div>
+    
+    <div class="footer" style="margin-top:50px; font-size:0.9em; color:#aaa;">
+        <p>As a registered 501(c)(3) nonprofit, Lumina Nova is building a sanctuary for higher learning, cosmic integration, and planetary restoration.</p>
+        <p>Our mission hub is currently under construction, but our foundation is strong. This is your opportunity to be part of the awakening.</p>
+        <p>Contact us: <a href="mailto:info@luminanova.org" style="color: gold;">info@luminanova.org</a> | <a href="mailto:beacon@luminanova.org" style="color: gold;">beacon@luminanova.org</a></p>
+        <p>&copy; 2025 Lumina Nova. All Rights Reserved.</p>
+    </div>
 </body>
 </html>
+
