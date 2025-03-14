@@ -3,74 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lumina Nova - Cosmic Activation</title>
+    <title>Cosmic Activation</title>
     <style>
         body {
-            margin: 0;
-            padding: 0;
-            background: url('https://source.unsplash.com/1600x900/?cosmos,stars') no-repeat center center fixed;
-            background-size: cover;
+            background-color: #222;
             color: white;
             font-family: Arial, sans-serif;
             text-align: center;
+            margin: 0;
+            padding: 0;
         }
-        .overlay {
-            background: rgba(0, 0, 0, 0.7);
-            padding: 50px;
-            min-height: 100vh;
+        h1 {
+            font-size: 2.5em;
+            margin-top: 30px;
+            text-shadow: 0 0 15px #FFD700;
         }
-        .header {
-            font-size: 2.8em;
-            font-weight: bold;
-            text-shadow: 0px 0px 15px gold;
-            animation: glowText 1.5s infinite alternate;
-        }
-        @keyframes glowText {
-            from { text-shadow: 0px 0px 10px gold; }
-            to { text-shadow: 0px 0px 20px white; }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
         }
         .symbol-container {
             display: flex;
             justify-content: center;
-            gap: 30px;
+            align-items: center;
             flex-wrap: wrap;
-            margin-top: 40px;
+            gap: 30px;
+            margin-top: 20px;
         }
         .symbol {
-            width: 150px;
-            height: 150px;
-            background-color: rgba(255, 255, 255, 0.1);
+            width: 180px;
+            height: 180px;
+            background-color: rgba(255, 215, 0, 0.1);
             border-radius: 50%;
             display: flex;
-            align-items: center;
             justify-content: center;
-            box-shadow: 0px 0px 15px gold;
+            align-items: center;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.6);
             transition: transform 0.3s, box-shadow 0.3s;
-            background-size: cover;
         }
         .symbol:hover {
             transform: scale(1.2);
-            box-shadow: 0px 0px 25px white;
+            box-shadow: 0 0 35px rgba(255, 215, 0, 0.9);
         }
-        .footer {
-            margin-top: 40px;
-            font-size: 1.4em;
-            opacity: 0.8;
+        .symbol img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
         }
     </style>
 </head>
 <body>
-    <div class="overlay">
-        <div class="header">Welcome to the Cosmic Activation</div>
-        <p>These sacred symbols hold the keys to our awakening. Hover over them to engage with their energy.</p>
-        <div class="symbol-container">
-            <div class="symbol" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3a/Flower-of-Life-small.svg');"></div>
-            <div class="symbol" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Metatron_Cube.svg/600px-Metatron_Cube.svg.png');"></div>
-            <div class="symbol" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e6/Sri_Yantra_construct.svg');"></div>
-            <div class="symbol" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/89/Merkaba.png');"></div>
-            <div class="symbol" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/5e/Vesica_Piscis.svg');"></div>
-        </div>
-        <div class="footer">Align. Activate. Restore.</div>
+    <h1>Welcome to the Cosmic Activation</h1>
+    <p>These sacred symbols hold the keys to our awakening. Hover over them to engage with their energy.</p>
+    <div class="symbol-container">
+        <div class="symbol"><img src="https://i.postimg.cc/NMxnJv60/Flower-Of-Life.jpg" alt="Flower of Life"></div>
+        <div class="symbol"><img src="https://i.postimg.cc/prG6vQ1b/Metatron-s-Cube.jpg" alt="Metatron's Cube"></div>
+        <div class="symbol"><img src="https://i.postimg.cc/L65WT7nH/Sri-Yantra.jpg" alt="Sri Yantra"></div>
+        <div class="symbol"><img src="https://i.postimg.cc/Xq7zt1Lk/Merkaba.jpg" alt="Merkaba"></div>
+        <div class="symbol"><img src="https://i.postimg.cc/SQD5cqQT/Vesica-Piscis.jpg" alt="Vesica Piscis"></div>
     </div>
+    <p>Align. Activate. Restore.</p>
 </body>
 </html>
